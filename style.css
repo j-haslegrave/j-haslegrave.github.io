@@ -4,7 +4,7 @@ h1,h2,h3 {font-family: sans-serif; font-weight: bold; color: #00407a}
 
 th,td {padding-right: 40px;}
 
-tr:nth-child(even) {
+tr.odd td {
             background-color: #dddddd;
         }
 
@@ -19,7 +19,9 @@ tr.term td {background-color: #ffffff;
             font-family: sans-serif; 
             font-weight: bold; 
             color: #00407a;
-            font-size: 1.5em;}
+            font-size: 1.5em;
+            padding-top: 1em;
+            padding-bottom: 1em;}
 
 html { background-color: #3f7fbf; 
 margin: 20px;} 
