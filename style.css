@@ -14,6 +14,13 @@ li:not(:last-child) {
     margin-bottom: 5px;
 }
 
+tr.term td {background-color: #000000; 
+            text-align: left; 
+            font-family: sans-serif; 
+            font-weight: bold; 
+            color: #00407a;
+            font-size: 1.5em;}
+
 html { background-color: #3f7fbf; 
 margin: 20px;} 
 body {
